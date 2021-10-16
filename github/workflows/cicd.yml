@@ -8,12 +8,8 @@ name: Upload Python Package
 on:
   push:
     branches:
-     -main
- # pull_request:
-    #branches:
-     #-main
-  #release:
-   # types: [published]
+     - main
+ 
 
 jobs:
   deploy:
