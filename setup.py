@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 PROJECT_NAME = "myneuron_packages"
-USER_NAME = "GOPICHANDU"
+USER_NAME = "gopichandu-tech"
 
 
 setuptools.setup(
@@ -15,9 +15,9 @@ setuptools.setup(
     description="its a implementation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{USER_NAME}/{myneuron_packages}",
+    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{USER_NAME}/{myneuron_packages}/issues",
+        "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
